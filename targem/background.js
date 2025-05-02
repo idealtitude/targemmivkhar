@@ -1,3 +1,22 @@
+const languageNames = {
+	"en": "English",
+	"fr": "Français",
+	"he": "עברית",
+	"el": "ελληνικά",
+	"es": "Español",
+	"de": "Deutsch",
+	"it": "Italiano",
+	"pt": "Português",
+	"ru": "Русский",
+	"zh-CN": "中文 (simplified)",
+	"ja": "日本語",
+	"ar": "عربي"
+};
+
+function getLanguageDisplay(code) {
+	return languageNames[code] ? `${languageNames[code]} (${code})` : code;
+}
+
 function createContextMenus() {
 	chrome.contextMenus.removeAll(() => {
 		chrome.storage.sync.get(["targetLanguages"], (result) => {
@@ -5,10 +24,10 @@ function createContextMenus() {
 
 			if (langs.length === 0) {
 				chrome.contextMenus.create({
-				id: "translate-default",
-				title: "Translate with Google Translate",
-				contexts: ["selection"]
-			});
+					id: "translate-default",
+					title: "Translate with Google Translate",
+					contexts: ["selection"]
+				});
 			}
 			else {
 				chrome.contextMenus.create({
@@ -21,7 +40,7 @@ function createContextMenus() {
 					chrome.contextMenus.create({
 						id: `translate-${lang}`,
 						parentId: "translate-parent",
-						title: `→ ${lang}`,
+						title: `→ ${getLanguageDisplay(lang)}`,
 						contexts: ["selection"]
 					});
 				});
@@ -39,9 +58,9 @@ chrome.runtime.onStartup.addListener(() => {
 });
 
 chrome.storage.onChanged.addListener((changes, areaName) => {
-if (areaName === 'sync' && changes.targetLanguages) {
-	createContextMenus();
-}
+	if (areaName === 'sync' && changes.targetLanguages) {
+		createContextMenus();
+	}
 });
 
 chrome.contextMenus.onClicked.addListener((info) => {

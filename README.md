@@ -10,13 +10,13 @@ Go to this [Google Translate page](https://translate.google.fr/?sl=iw&tl=en&text
 
 **This is a Work In Progress!**
 
-The extension is only done very partially, not all functionalities work. Particularly the options page that is a very messy, it's not usable for the moment.
+Most of the work is done, and it's usable right now, but I prefer to warn that it's a work in progress...
 
 ## Presentation
 
 This is an extension for Firefox that add an option in the contextual menu and open Google Translate with the selected text... to translate it.
 
-I made it because I was fed up to select and copy texts I want to translate, then open another tab and go to Google Translate, then paste the text, sleect the langguages...
+I made it because I was fed up to select and copy texts I want to translate, then open another tab and go to Google Translate, then paste the text, sleect the languages...
 
 So I made this extension.
 
@@ -29,10 +29,10 @@ If you're afer something more sophisticated than my poor little extension, then 
 **Targem Mivkhar** (from now on I'll call it **Targem** for short), has the follwoing features:
 
 * [x] add an option to the contextual menu to translate selected text; the target language is English by default
-* [ ] an options page where you can:
+* [x] an options page where you can:
     1. [x] Add any number of target languages from a predefined list
     2. [x] Add any language from a language abbreviation code (ex. "he" for Hebrew)
-    3. [ ] Choose in the contextual menu which of these target langiages you want to use (not implemented yet!)
+    3. [x] Choose in the contextual menu which of these target languages you want to use
 
 ## Installation
 

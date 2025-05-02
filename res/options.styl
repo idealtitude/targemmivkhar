@@ -1,82 +1,133 @@
 :root
-    --text-color hsl(0, 0%, 10%)
-    --background-color hsl(0, 0%, 99%)
-    --color-white hsl(0, 0%, 100%)
-    --color-black hsl(0, 0%, 0%)
-    --color-greydarker hsl(0, 0%, 9%)
-    --color-greydark hsl(0, 0%, 20%)
-    --color-greymed hsl(0, 0%, 46%)
-    --color-greylight hsl(0, 3%, 69%)
-    --color-greylighter hsl(0, 6%, 81%)
-    --color-bs hsl(0, 0%, 0%)
-    --moonstone: hsla(187, 33%, 62%, 1);
-    --mint-green: hsla(171, 57%, 89%, 1);
-    --citrine: hsla(55, 68%, 55%, 1);
-    --engineering-orange: hsla(7, 76%, 42%, 1);
-    --claret: hsla(340, 71%, 29%, 1)
-    --color-pink hsl(343, 100%, 63%)
-    --color-blue hsl(212, 100%, 26%)
-    --color-bluelight hsl(211, 100%, 50%)
-    --color-bluelighter hsl(210, 100%, 67%)
-    --color-bluedark hsl(211, 100%, 13%)
-    --color-bluedarker hsl(211, 82%, 6%)
-    --color-success hsl(86, 70%, 69%)
-    --color-successtxt hsl(88, 100%, 6%)
-    --color-warning hsl(53, 62%, 66%)
-    --color-warningtxt hsl(54, 100%, 6%)
-    --color-info hsl(210, 64%, 70%)
-    --color-infotxt hsl(209, 100%, 8%)
-    --color-notice hsl(262, 65%, 73%)
-    --color-noticetxt hsl(260, 100%, 4%)
-    --color-error hsl(350, 63%, 69%)
-    --color-errortxt hsl(350, 100%, 5%)
-    --drop-shadow-light hsla(0, 0%, 0%, 0.4)
-    --drop-shadow-dark hsla(0, 0%, 0%, 0.7)
-    --drop-shadow-darker hsla(0, 0%, 0%, 0.9)
-    color-scheme light dark
-    --fg light-dark(var(--text-color), var(--color-greylighter))
-    --bg light-dark(var(--background-color), var(--color-greydarker))
-    color var(--fg)
-    background-color var(--bg)
-
-html, body
-    scroll-behavior smooth
+	--text-color hsl(0, 0%, 10%)
+	--background-color hsl(0, 0%, 99%)
+	--color-white hsl(0, 0%, 100%)
+	--color-black hsl(0, 0%, 0%)
+	--color-greydarker hsl(0, 0%, 9%)
+	--color-greydark hsl(0, 0%, 20%)
+	--color-greymed hsl(0, 0%, 46%)
+	--color-greylight hsl(0, 3%, 69%)
+	--color-greylighter hsl(0, 6%, 81%)
+	--color-bs hsl(0, 0%, 0%)
+	--moonstone hsla(187, 33%, 62%, 1)
+	--mint-green hsla(171, 57%, 89%, 1)
+	--citrine hsla(55, 68%, 55%, 1)
+	--engineering-orangelight hsl(6, 78%, 57%)
+	--engineering-orange hsla(7, 76%, 42%, 1)
+	--claret hsla(340, 71%, 29%, 1)
+	--color-pink hsl(343, 100%, 63%)
+	--color-blue hsl(216, 54%, 49%)
+	--color-bluelight hsl(214, 68%, 58%)
+	--color-bluelighter hsl(210, 100%, 67%)
+	--color-bluedark hsl(211, 100%, 13%)
+	--color-bluedarker hsl(211, 82%, 6%)
+	--color-success hsl(86, 70%, 69%)
+	--color-successtxt hsl(88, 100%, 6%)
+	--color-warning hsl(53, 62%, 66%)
+	--color-warningtxt hsl(54, 100%, 6%)
+	--color-info hsl(210, 64%, 70%)
+	--color-infotxt hsl(209, 100%, 8%)
+	--color-notice hsl(262, 65%, 73%)
+	--color-noticetxt hsl(260, 100%, 4%)
+	--color-error hsl(350, 63%, 69%)
+	--color-errortxt hsl(350, 100%, 5%)
+	--drop-shadow-light hsla(0, 0%, 0%, 0.4)
+	--drop-shadow-dark hsla(0, 0%, 0%, 0.7)
+	--drop-shadow-darker hsla(0, 0%, 0%, 0.9)
+	color-scheme light dark
+	--fg light-dark(var(--text-color), var(--color-greylighter))
+	--bg light-dark(var(--background-color), var(--color-greydarker))
+	color var(--fg)
+	background-color var(--bg)
 
 body
-    font-family 'Courier New', 'Arial', 'Deja Vue Sans', 'sans-serif'
-    font-style normal
-    font-weight 400
-    font-size 1rem
-    text-rendering optimizeLegibility
-    margin 0
-    padding 0
-
-h1, h2, h3, h4, h5, h6
-    word-break break-word
-    hyphens auto
+	font-family Arial, sans-serif
+	line-height 1.6
+	max-width 800px
+	margin 0 auto
+	padding 20px
 
 h1
-    img
-        height 32px
+	border-bottom 1px solid var(--color-greylight)
+	padding-bottom 10px
+	display flex
+	align-items center
+	gap 10px
 
-input, button, select
-    font-size 1rem
-    margin 0.5rem 0
+h2
+	margin-top 20px
 
-ul
-    list-style none
-    padding-left 0
-	li
-        margin 0.25rem 0
-		button
-            margin-left 1rem
+input, select
+	padding 6px
+	border 1px solid var(--color-greylight)
+	border-radius 4px
+
 .rtl
-    direction rtl
+	direction rtl
+
+button
+	background-color ar(--color-bluelight)
+	color white
+	border none
+	padding 6px 12px
+	border-radius 4px
+	cursor pointer
+	transition background-color 0.2s
+
+button:hover
+	background-color ar(--color-blue)
+
+#langList
+	list-style-type none
+	padding 0
+
+#langList li
+	margin 8px 0
+	padding 8px
+	background-color hsl(0, 0%, 96%)
+	color var(--text-color)
+	border-radius 4px
+	display flex
+	justify-content space-between
+	align-items center
+
+#langList li button
+	background-color var(--engineering-orangelight)
+	margin-left 1em
+
+#langList li button:hover
+	background-color var(--engineering-orangelight)
 
 #status
-    color green
+	padding 8px 0
+	color hsl(120, 100%, 25%)
+	font-weight bold
+
+#addButton, #addPresetButton
+	margin-left 10px
 
 #global
-    width 80dvw
-    margin 0 auto
-    padding 1rem
+	padding 20px
+
+hr
+	border 0
+	height 1px
+	background-image linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))
+	margin 2.5rem
+
+@media (prefers-color-scheme: dark)
+	hr
+		background-image linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 0.55), rgba(0, 0, 0, 0))
+
+/* Debug section styles */
+.debug-container
+	margin-top 20px
+	padding 10px
+
+.debug-output
+	background-color hsl(0, 0%, 96%)
+	color var(--text-color)
+	padding 10px
+	margin-top 10px
+	max-height 200px
+	overflow auto
