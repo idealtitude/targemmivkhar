@@ -1,0 +1,82 @@
+:root
+    --text-color hsl(0, 0%, 10%)
+    --background-color hsl(0, 0%, 99%)
+    --color-white hsl(0, 0%, 100%)
+    --color-black hsl(0, 0%, 0%)
+    --color-greydarker hsl(0, 0%, 9%)
+    --color-greydark hsl(0, 0%, 20%)
+    --color-greymed hsl(0, 0%, 46%)
+    --color-greylight hsl(0, 3%, 69%)
+    --color-greylighter hsl(0, 6%, 81%)
+    --color-bs hsl(0, 0%, 0%)
+    --moonstone: hsla(187, 33%, 62%, 1);
+    --mint-green: hsla(171, 57%, 89%, 1);
+    --citrine: hsla(55, 68%, 55%, 1);
+    --engineering-orange: hsla(7, 76%, 42%, 1);
+    --claret: hsla(340, 71%, 29%, 1)
+    --color-pink hsl(343, 100%, 63%)
+    --color-blue hsl(212, 100%, 26%)
+    --color-bluelight hsl(211, 100%, 50%)
+    --color-bluelighter hsl(210, 100%, 67%)
+    --color-bluedark hsl(211, 100%, 13%)
+    --color-bluedarker hsl(211, 82%, 6%)
+    --color-success hsl(86, 70%, 69%)
+    --color-successtxt hsl(88, 100%, 6%)
+    --color-warning hsl(53, 62%, 66%)
+    --color-warningtxt hsl(54, 100%, 6%)
+    --color-info hsl(210, 64%, 70%)
+    --color-infotxt hsl(209, 100%, 8%)
+    --color-notice hsl(262, 65%, 73%)
+    --color-noticetxt hsl(260, 100%, 4%)
+    --color-error hsl(350, 63%, 69%)
+    --color-errortxt hsl(350, 100%, 5%)
+    --drop-shadow-light hsla(0, 0%, 0%, 0.4)
+    --drop-shadow-dark hsla(0, 0%, 0%, 0.7)
+    --drop-shadow-darker hsla(0, 0%, 0%, 0.9)
+    color-scheme light dark
+    --fg light-dark(var(--text-color), var(--color-greylighter))
+    --bg light-dark(var(--background-color), var(--color-greydarker))
+    color var(--fg)
+    background-color var(--bg)
+
+html, body
+    scroll-behavior smooth
+
+body
+    font-family 'Courier New', 'Arial', 'Deja Vue Sans', 'sans-serif'
+    font-style normal
+    font-weight 400
+    font-size 1rem
+    text-rendering optimizeLegibility
+    margin 0
+    padding 0
+
+h1, h2, h3, h4, h5, h6
+    word-break break-word
+    hyphens auto
+
+h1
+    img
+        height 32px
+
+input, button, select
+    font-size 1rem
+    margin 0.5rem 0
+
+ul
+    list-style none
+    padding-left 0
+	li
+        margin 0.25rem 0
+		button
+            margin-left 1rem
+.rtl
+    direction rtl
+
+#status
+    color green
+
+#global
+    width 80dvw
+    margin 0 auto
+    padding 1rem

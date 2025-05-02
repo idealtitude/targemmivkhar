@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Targem Mivkhar - Options</title>
+	<link rel="stylesheet" href="options.css">
+	<link rel="icon" type="image/png" href="icon-48x48.png" sizes="96x96">
+	<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	<body>
+		<div id="global">
+			<h1><img src="icon-48x48.png"> Targem Mivkhar Options</h1>
+			<p>
+				<label for="languageList">Default language target :</label>
+				<select id="languageList">
+					<option value="">-- Choose a language --</option>
+					<option value="en">English (en)</option>
+					<option value="fr">Français (fr)</option>
+					<option class="rtl" value="he">עברית (he)</option>
+					<option value="gr">ελληνικά (gr)</option>
+					<option value="es">Español (es)</option>
+					<option value="de">Deutsch (de)</option>
+					<option value="it">Italiano (it)</option>
+					<option value="pt">Português (pt)</option>
+					<option value="ru">Русский (ru)</option>
+					<option value="zh-CN">中文 (simplified)</option>
+					<option value="ja">日本語 (ja)</option>
+					<option class="rtl" value="ar">عربي (ar)</option>
+				</select>
+			</p>
+			<p>
+				<button id="addPresetButton">Ajouter</button>
+			</p>
+			<p id="status"></p>
+			<hr>
+			<p>
+				<label for="languageInput">Add a custom language (code ISO) :</label>
+				<input type="text" id="anguageInput" placeholder="ex.: gr for Greek">
+				<button id="addButton">Add</button>
+			</p>
+
+			<h2>Target Languages</h2>
+			<ul id="langList"></ul>
+		</div>
+		<!-- <script src="options.js"></script> -->
+	</body>
+</html>
