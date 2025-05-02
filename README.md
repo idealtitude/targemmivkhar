@@ -28,8 +28,8 @@ If you're afer something more sophisticated than my poor little extension, then 
 
 **Targem Mivkhar** (from now on I'll call it **Targem** for short), has the follwoing features:
 
-- [x] add an option to the contextual menu to translate selected text; the target language is English by default
-- [-] an options page where you can:
+* [x] add an option to the contextual menu to translate selected text; the target language is English by default
+* [ ] an options page where you can:
     1. [x] Add any number of target languages from a predefined list
     2. [x] Add any language from a language abbreviation code (ex. "he" for Hebrew)
     3. [ ] Choose in the contextual menu which of these target langiages you want to use (not implemented yet!)
