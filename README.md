@@ -14,9 +14,9 @@ Most of the work is done, and it's usable right now, but I prefer to warn that i
 
 ## Presentation
 
-This is an extension for Firefox that add an option in the contextual menu and open Google Translate with the selected text... to translate it.
+This is an extension for Firefox that adds an option in the contextual menu and open Google Translate with the selected text... to translate it.
 
-I made it because I was fed up to select and copy texts I want to translate, then open another tab and go to Google Translate, then paste the text, sleect the languages...
+I made it because I was fed up to select and copy texts I want to translate, then open another tab and go to Google Translate, then paste the text, select the languages...
 
 So I made this extension.
 
@@ -36,13 +36,26 @@ If you're afer something more sophisticated than my poor little extension, then 
 
 ## Installation
 
+/!\ I'm currently in the process of publishng Targem to the Mozilla Firefox Addons; when it's done you'll be able to install the extension directly from its page on Firefox Addons website.
+If everything goes well I'll update this section to add the link to the official addon page.
+
+In the meantime, you can test the extension; simply follow the steps described below:
+
+1. in FIrefox open `about:debugging` from the address bar
+2. click on "This Firefox" tab on the left
+3. click on "Load a temporary addon"
+
+And you're done! 
+
+**Later**; when the extension is published offically, you'll just have to follow the link to install the addon as I said above; or install it manually, like this:
+
 1. Download/CLone this repository, or download a [release](https://github.com/idealtitude/targemmivkhar/releases)
 2. In Firefox, in the extensions manager, choose "Install from file"
-3. Select `manfiest.json` in the [targem sub folder](./targem/manifest.json)
+3. Select `manifest.json` in the [targem sub folder](./targem/manifest.json)
 
 ## Usage
 
-And you're done! Now you'll have the additional option in the contextual menu: *Translate Selection With Google Translate*.
+Now you'll have the additional option in the contextual menu: *Translate Selection With Google Translate*.
 
 To add other target lnaguages other than the default English target, go the extension preferences where you'll be able to add any langues you want.
 
