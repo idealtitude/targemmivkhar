@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+    <defs>
+        <filter id="a" width="1.084" height="1.084" x="-.037" y="-.037" style="color-interpolation-filters:sRGB">
+            <feFlood flood-color="#000" flood-opacity="1" result="flood"/>
+            <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="8.761"/>
+            <feOffset dx="6.385" dy="6.492" in="blur" result="offset"/>
+            <feComposite in="flood" in2="offset" operator="in" result="comp1"/>
+            <feComposite in="SourceGraphic" in2="comp1" result="comp2"/>
+        </filter>
+    </defs>
+    <rect width="1024" height="1024" ry="160" style="fill:#f2f2f2;stroke-width:32;stroke-linejoin:round"/>
+    <path d="M48 128h512v80H48z" style="fill:#000;stroke-width:26.1279;stroke-linejoin:round"/>
+    <path d="M640 128h336v80H640z" style="fill:#000;stroke-width:21.166;stroke-linejoin:round"/>
+    <path d="M48 304h208v80H48z" style="fill:#000;stroke-width:16.6533;stroke-linejoin:round"/>
+    <path d="M334.916 304H704v80H334.916z" style="fill:#000;stroke-width:22.1836;stroke-linejoin:round"/>
+    <path d="M783.458 304H976v80H783.458z" style="fill:#000;stroke-width:16.0225;stroke-linejoin:round"/>
+    <path d="M46.67 480h369.084v80H46.67z" style="fill:#000;stroke-width:22.1836;stroke-linejoin:round"/>
+    <path d="M489.758 480H864v80H489.758z" style="fill:#000;stroke-width:22.3381;stroke-linejoin:round"/>
+    <path d="M48 648h531.909v80H48z" style="fill:#000;stroke-width:26.6311;stroke-linejoin:round"/>
+    <path d="M656 648h286.399v80H656zM48.8 816h286.399v80H48.8z" style="fill:#000;stroke-width:19.5414;stroke-linejoin:round"/>
+    <path d="M406.966 816h135.742v80H406.966z" style="fill:#000;stroke-width:13.4532;stroke-linejoin:round"/>
+    <path d="M614.475 816H864v80H614.475z" style="fill:#000;stroke-width:18.2401;stroke-linejoin:round"/>
+    <path d="M32 288h688v112H32z" style="fill:#26a5f5;fill-opacity:.729195;stroke-width:32;stroke-linejoin:round"/>
+    <g transform="translate(13.254 -22.783)">
+        <rect width="576" height="576" x="368" y="432" ry="38.783" style="fill:#161616;fill-opacity:1;stroke-width:32;stroke-linejoin:round;filter:url(#a)"/>
+        <path d="M353.376 579.329c-2.448 0-2.736 0-2.736-.288-.288-.288-15.84-72.288-16.704-75.024-.432-1.44-1.872-2.592-3.456-3.168-.72-.288-1.152-.288-4.752-.288-3.744 0-4.032 0-4.896.288-1.584.576-2.88 1.728-3.312 3.168-.864 2.736-16.416 74.736-16.704 75.024 0 .288-.288.288-2.736.288-4.752 0-6.048 1.152-6.048 5.472 0 3.024.576 4.176 2.592 5.04.576.288.72.288 11.952.288h11.376c2.16-.864 3.024-2.016 3.024-5.328 0-1.872 0-2.16-.288-2.736-1.152-2.16-1.584-2.448-5.184-2.736-2.304 0-2.304 0-2.16-.288 0-.288.432-2.304 1.008-4.896l1.008-4.464h20.736l1.008 4.464c.576 2.592 1.008 4.608 1.008 4.896.144.288.144.288-2.16.288-3.6.288-4.032.576-5.184 2.736-.288.576-.288.864-.288 2.736 0 3.312.864 4.608 3.168 5.328h11.232c11.232 0 11.376 0 11.952-.288 2.016-.864 2.592-2.016 2.592-5.04 0-4.32-1.296-5.472-6.048-5.472m-27.504-63.792c0 2.592 1.44 11.376 3.888 23.76 1.152 5.76 3.888 18.72 4.032 19.152 0 .288-.432.288-8.064.288s-8.064 0-8.064-.288c.144-.432 2.88-13.392 4.032-19.152 2.448-12.528 3.888-21.168 3.888-23.904 0-.72 0-1.008.144-1.008.144.144.144.576.144 1.152" aria-label="A" style="font-size:144px;font-family:MathJax_Typewriter;-inkscape-font-specification:MathJax_Typewriter;white-space:pre;fill:#fff;stroke-width:32;stroke-linejoin:round" transform="matrix(4.74503 0 0 3.83228 -774.568 -1278.29)"/>
+        <path d="M480.367 555.656q0 6.75-4.57 12.445-3.867 4.851-6.399 4.851-1.265 0-1.265-2.039 0-.28.914-1.687.914-1.406.914-2.461 0-3.445-4.64-8.719l-7.173-7.172-35.226-35.226q-3.938 5.836-3.938 10.336 0 6.117 8.649 16.523 8.648 10.336 8.648 16.453 0 4.992-3.797 8.367-3.796 3.305-9.28 3.305H404.43l.773-3.586q9.211-1.195 9.211-6.187 0-2.461-4.219-10.266-4.148-7.875-4.148-12.656 0-11.04 13.36-25.735l-3.446-3.515q-6.328-6.328-8.508-10.406-2.531-4.922-2.531-11.883 0-6.75 4.43-12.446 3.796-4.851 6.328-4.851 1.336 0 1.336 2.039 0 .21-.985 1.617-.914 1.406-.914 2.39 0 3.516 4.64 8.72 3.587 3.585 7.173 7.101l21.023 21.023 10.055-12.656q-5.203-3.937-6.961-7.383-1.195-2.46-1.195-6.398 0-6.82 4.992-12.094 4.008-4.36 6.82-4.36 1.266 0 1.266 1.337 0 .281-.352.633-.351.351-.351 1.336 0 3.445 7.593 8.93 9.07 6.609 9.07 16.734 0 7.03-3.093 10.828-2.39 2.953-5.203 2.953-1.547 0-2.813-2.39-2.11-3.868-5.836-7.102l-10.547 13.148 17.72 17.86q6.327 6.398 8.577 10.406 2.672 4.922 2.672 11.883" aria-label="א" style="font-size:144px;font-family:&quot;Ezra SIL&quot;;-inkscape-font-specification:&quot;Ezra SIL&quot;;white-space:pre;fill:#fff;stroke-width:32;stroke-linejoin:round" transform="matrix(3.41804 0 0 3.1992 -985.913 -1050.779)"/>
+    </g>
+</svg>
