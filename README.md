@@ -8,7 +8,9 @@ Go to this [Google Translate page](https://translate.google.fr/?sl=iw&tl=en&text
 
 ## Presentation
 
-This is an extension for Firefox that adds an option in the contextual menu and open Google Translate with the selected text... to translate it.
+This is an addon for Firefox that adds an option in the contextual menu and open Google Translate with the selected text... to translate it.
+
+![./get-the-addon.webp](https://addons.mozilla.org/fr/firefox/addon/targem-mivkhar/)
 
 I made it because I was fed up to select and copy texts I want to translate, then open another tab and go to Google Translate, then paste the text, select the languages...
 
