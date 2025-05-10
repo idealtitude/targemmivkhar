@@ -6,12 +6,6 @@ Go to this [Google Translate page](https://translate.google.fr/?sl=iw&tl=en&text
 
 ![targem Mivkhar Logo](./targemmivkhar.png)
 
-### /!\ Warning
-
-**This is a Work In Progress!**
-
-Most of the work is done, and it's usable right now, but I prefer to warn that it's a work in progress...
-
 ## Presentation
 
 This is an extension for Firefox that adds an option in the contextual menu and open Google Translate with the selected text... to translate it.
@@ -36,28 +30,23 @@ If you're afer something more sophisticated than my poor little extension, then 
 
 ## Installation
 
-/!\ I'm currently in the process of publishng Targem to the Mozilla Firefox Addons; when it's done you'll be able to install the extension directly from its page on Firefox Addons website.
-If everything goes well I'll update this section to add the link to the official addon page.
+You can install the [targemmivkhar extension](https://addons.mozilla.org/fr/firefox/addon/targem-mivkhar/) from the Firefox Addons Page:
 
-In the meantime, you can test the extension; simply follow the steps described below:
+https://addons.mozilla.org/fr/firefox/addon/targem-mivkhar/
+
+You can also test the extension; simply follow the steps described below:
 
 1. in FIrefox open `about:debugging` from the address bar
 2. click on "This Firefox" tab on the left
 3. click on "Load a temporary addon"
 
-And you're done! 
-
-**Later**; when the extension is published offically, you'll just have to follow the link to install the addon as I said above; or install it manually, like this:
-
-1. Download/CLone this repository, or download a [release](https://github.com/idealtitude/targemmivkhar/releases)
-2. In Firefox, in the extensions manager, choose "Install from file"
-3. Select `manifest.json` in the [targem sub folder](./targem/manifest.json)
+And you're done!
 
 ## Usage
 
 Now you'll have the additional option in the contextual menu: *Translate Selection With Google Translate*.
 
-To add other target lnaguages other than the default English target, go the extension preferences where you'll be able to add any langues you want.
+To add other target languages other than the default English target, go the extension preferences where you'll be able to add and remove any languages you want.
 
 ## TODO's
 
